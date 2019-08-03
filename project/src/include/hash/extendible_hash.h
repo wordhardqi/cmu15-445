@@ -12,14 +12,33 @@
 #include <cstdlib>
 #include <vector>
 #include <string>
-
+#include <memory>
+#include <map>
 #include "hash/hash_table.h"
 
 namespace cmudb {
 
-template <typename K, typename V>
+template<typename K, typename V>
 class ExtendibleHash : public HashTable<K, V> {
-public:
+
+  struct Bucket {
+    Bucket() = default;
+    Bucket(size_t id, int depth) : bucket_id(id), bucket_depth(depth), next(nullptr) {
+
+    }
+    size_t NumElems() const {
+      return bucket_items.size();
+    }
+
+
+    std::shared_ptr<Bucket> next;
+    std::map<K, V> bucket_items;
+
+    size_t bucket_id;
+    int bucket_depth;
+  };
+  typedef std::shared_ptr<Bucket> BucketPtr;
+ public:
   // constructor
   ExtendibleHash(size_t size);
   // helper function to generate hash addressing
@@ -33,7 +52,17 @@ public:
   bool Remove(const K &key) override;
   void Insert(const K &key, const V &value) override;
 
-private:
+ private:
   // add your own member variables here
+  size_t BucketIndex(const K & Key);
+
+  BucketPtr SplitOrOverFlow(BucketPtr bucket);
+  const size_t bucket_size_;
+  int depth_;
+  std::vector<BucketPtr> buckets_;
+  size_t num_buckets_;
+
+
+
 };
 } // namespace cmudb

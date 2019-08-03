@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SQLite_VTable" targetName="ExperimentalCoverage" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalMemCheck" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_concurrent_test" />
+      <config projectName="SQLite_VTable" targetName="sqlite3_shell" />
+      <config projectName="SQLite_VTable" targetName="NightlyBuild" />
+      <config projectName="SQLite_VTable" targetName="virtual_table_test" />
+      <config projectName="SQLite_VTable" targetName="lru_replacer_test" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalUpdate" />
+      <config projectName="SQLite_VTable" targetName="extendible_hash_test" />
+      <config projectName="SQLite_VTable" targetName="check" />
+      <config projectName="SQLite_VTable" targetName="NightlyUpdate" />
+      <config projectName="SQLite_VTable" targetName="ContinuousStart" />
+      <config projectName="SQLite_VTable" targetName="rwmutex_test" />
+      <config projectName="SQLite_VTable" targetName="tuple_test" />
+      <config projectName="SQLite_VTable" targetName="ContinuousConfigure" />
+      <config projectName="SQLite_VTable" targetName="NightlyStart" />
+      <config projectName="SQLite_VTable" targetName="ContinuousSubmit" />
+      <config projectName="SQLite_VTable" targetName="Continuous" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyMemoryCheck" />
+      <config projectName="SQLite_VTable" targetName="gtest" />
+      <config projectName="SQLite_VTable" targetName="ContinuousTest" />
+      <config projectName="SQLite_VTable" targetName="buffer_pool_manager_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyCoverage" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_print_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyMemCheck" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalBuild" />
+      <config projectName="SQLite_VTable" targetName="ContinuousUpdate" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalConfigure" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalStart" />
+      <config projectName="SQLite_VTable" targetName="ContinuousMemCheck" />
+      <config projectName="SQLite_VTable" targetName="sqlite3" />
+      <config projectName="SQLite_VTable" targetName="type_test" />
+      <config projectName="SQLite_VTable" targetName="vtable" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalTest" />
+      <config projectName="SQLite_VTable" targetName="Nightly" />
+      <config projectName="SQLite_VTable" targetName="lock_manager_test" />
+      <config projectName="SQLite_VTable" targetName="NightlySubmit" />
+      <config projectName="SQLite_VTable" targetName="ContinuousCoverage" />
+      <config projectName="SQLite_VTable" targetName="ContinuousBuild" />
+      <config projectName="SQLite_VTable" targetName="Experimental" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalSubmit" />
+      <config projectName="SQLite_VTable" targetName="log_manager_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyTest" />
+      <config projectName="SQLite_VTable" targetName="header_page_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyConfigure" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee7eead2-a741-4e30-8ff7-501d00c9b67f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Continuous.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Continuous.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Continuous.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Continuous.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousBuild.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousBuild.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousConfigure.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousConfigure.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousCoverage.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousCoverage.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousMemCheck.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousMemCheck.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousStart.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousStart.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousStart.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousStart.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousSubmit.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousSubmit.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousSubmit.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousTest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousTest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousTest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousUpdate.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousUpdate.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ContinuousUpdate.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Experimental.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Experimental.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Experimental.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Experimental.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalBuild.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalBuild.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalConfigure.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalConfigure.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalCoverage.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalCoverage.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalMemCheck.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalMemCheck.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalStart.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalStart.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalSubmit.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalSubmit.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalTest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalTest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalUpdate.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/ExperimentalUpdate.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Nightly.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Nightly.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Nightly.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Nightly.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyBuild.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyBuild.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyBuild.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyBuild.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyConfigure.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyConfigure.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyCoverage.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyCoverage.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemCheck.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemCheck.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemoryCheck.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyMemoryCheck.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyStart.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyStart.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyStart.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyStart.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlySubmit.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlySubmit.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlySubmit.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyTest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyTest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyTest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyUpdate.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyUpdate.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/NightlyUpdate.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/DartConfiguration.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/bin/sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/libgtest.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/libsqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/lib/libvtable.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3.dir/sqlite/sqlite3.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/sqlite3_shell.dir/sqlite/shell.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/catalog/column.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/catalog/schema.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/common/config.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/page/header_page.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/bigint_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/boolean_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/decimal_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/integer_parent_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/integer_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/smallint_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/tinyint_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/value.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CMakeFiles/vtable.dir/type/varlen_type.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/src/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/index/b_plus_tree_concurrent_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_concurrent_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_print_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/b_plus_tree_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/buffer_pool_manager_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/check.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/check.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/check.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/check.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/hash/extendible_hash_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/extendible_hash_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/__/third_party/gmock/gmock-gtest-all.cc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/__/third_party/gmock/gmock_main.cc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/header_page_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/concurrency/lock_manager_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lock_manager_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/log_manager_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/buffer/lru_replacer_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/lru_replacer_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/common/rwmutex_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/rwmutex_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/tuple_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/type_test.dir/type/type_test.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CMakeFiles/virtual_table_test.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/buffer_pool_manager_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/extendible_hash_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/lock_manager_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/lru_replacer_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/rwmutex_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test/type_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/extendible_hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/extendible_hash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/hash/extendible_hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/include/hash/extendible_hash.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hash/extendible_hash.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="82" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/include/hash/extendible_hash.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding>
+                <element signature="e#345#363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/bits/shared_ptr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/memory">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/buffer/lru_replacer_test.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/hash/extendible_hash_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/bits/functional_hash.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1584">
+              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sqlite/shell.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sqlite/sqlite3.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79360">
+              <caret line="4960" column="2" selection-start-line="4960" selection-start-column="2" selection-end-line="4960" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/include/hash/hash_table.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#118#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>target_link_libraries</find>
+      <find>%</find>
+      <find>shared_ptr</find>
+      <find>split</find>
+      <find>split</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/include/hash/extendible_hash.h" />
+        <option value="$PROJECT_DIR$/src/hash/extendible_hash.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/project.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="379" />
+    <option name="y" value="8" />
+    <option name="width" value="975" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SQLite_VTable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.SingleFileExecutionConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.ContinuousBuild">
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlySubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_concurrent_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_concurrent_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_concurrent_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_print_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_print_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_print_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buffer_pool_manager_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="buffer_pool_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="buffer_pool_manager_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extendible_hash_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="extendible_hash_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="extendible_hash_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="header_page_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="header_page_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="header_page_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lock_manager_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="lock_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="lock_manager_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log_manager_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="log_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="log_manager_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lru_replacer_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="lru_replacer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="lru_replacer_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rwmutex_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="rwmutex_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="rwmutex_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="sqlite3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite3_shell" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="sqlite3_shell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="sqlite3_shell">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tuple_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="tuple_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="tuple_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="type_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="type_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="type_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="virtual_table_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="virtual_table_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="virtual_table_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vtable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="vtable" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Continuous" />
+      <item itemvalue="CMake Application.ContinuousBuild" />
+      <item itemvalue="CMake Application.ContinuousConfigure" />
+      <item itemvalue="CMake Application.ContinuousCoverage" />
+      <item itemvalue="CMake Application.ContinuousMemCheck" />
+      <item itemvalue="CMake Application.ContinuousStart" />
+      <item itemvalue="CMake Application.ContinuousSubmit" />
+      <item itemvalue="CMake Application.ContinuousTest" />
+      <item itemvalue="CMake Application.ContinuousUpdate" />
+      <item itemvalue="CMake Application.Experimental" />
+      <item itemvalue="CMake Application.ExperimentalBuild" />
+      <item itemvalue="CMake Application.ExperimentalConfigure" />
+      <item itemvalue="CMake Application.ExperimentalCoverage" />
+      <item itemvalue="CMake Application.ExperimentalMemCheck" />
+      <item itemvalue="CMake Application.ExperimentalStart" />
+      <item itemvalue="CMake Application.ExperimentalSubmit" />
+      <item itemvalue="CMake Application.ExperimentalTest" />
+      <item itemvalue="CMake Application.ExperimentalUpdate" />
+      <item itemvalue="CMake Application.Nightly" />
+      <item itemvalue="CMake Application.NightlyBuild" />
+      <item itemvalue="CMake Application.NightlyConfigure" />
+      <item itemvalue="CMake Application.NightlyCoverage" />
+      <item itemvalue="CMake Application.NightlyMemCheck" />
+      <item itemvalue="CMake Application.NightlyMemoryCheck" />
+      <item itemvalue="CMake Application.NightlyStart" />
+      <item itemvalue="CMake Application.NightlySubmit" />
+      <item itemvalue="CMake Application.NightlyTest" />
+      <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.sqlite3" />
+      <item itemvalue="CMake Application.sqlite3_shell" />
+      <item itemvalue="CMake Application.vtable" />
+      <item itemvalue="CMake Application.b_plus_tree_concurrent_test" />
+      <item itemvalue="CMake Application.b_plus_tree_print_test" />
+      <item itemvalue="CMake Application.b_plus_tree_test" />
+      <item itemvalue="CMake Application.buffer_pool_manager_test" />
+      <item itemvalue="CMake Application.check" />
+      <item itemvalue="CMake Application.extendible_hash_test" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.header_page_test" />
+      <item itemvalue="CMake Application.lock_manager_test" />
+      <item itemvalue="CMake Application.log_manager_test" />
+      <item itemvalue="CMake Application.lru_replacer_test" />
+      <item itemvalue="CMake Application.rwmutex_test" />
+      <item itemvalue="CMake Application.tuple_test" />
+      <item itemvalue="CMake Application.type_test" />
+      <item itemvalue="CMake Application.virtual_table_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee7eead2-a741-4e30-8ff7-501d00c9b67f" name="Default Changelist" comment="" />
+      <created>1561035488673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561035488673</updated>
+      <workItem from="1561035491949" duration="8633000" />
+      <workItem from="1561265708494" duration="14607000" />
+      <workItem from="1564828086825" duration="1372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24612000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25294748" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/bits/shared_ptr.h</url>
+          <line>137</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hash/extendible_hash.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="82" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/hash/extendible_hash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#345#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/memory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/buffer/lru_replacer_test.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hash/extendible_hash_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/7/bits/functional_hash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqlite/shell.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqlite/sqlite3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79360">
+          <caret line="4960" column="2" selection-start-line="4960" selection-start-column="2" selection-end-line="4960" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/hash/hash_table.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#118#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
